@@ -1,0 +1,478 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.textbac {
+  text-align: center;
+  margin-right: 200px;
+  font-size: 47px;
+}
+.h1span {
+  color: aliceblue;
+  font-weight: 900;
+  font-family: "Paytone One", sans-serif;
+}
+.h1bac {
+  color: rgb(189, 48, 48);
+  font-weight: 600;
+  font-size: 45px;
+}
+.pb1 {
+  padding: 140px 150px 0px 0px;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 44px;
+}
+.pb2 {
+  padding: 0px 0px 0px 170px;
+  color: rgb(203, 226, 210);
+  font-size: 70px;
+  font-weight: 700;
+  font-family: "Satisfy", cursive;
+}
+.p1 {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+}
+.test-drive li {
+  display: inline-block;
+  font-size: 19px;
+  margin-left: 30px;
+}
+
+.test-drive {
+  background-color: rgb(237, 237, 237);
+  padding: 15px 0;
+
+  text-align: center;
+}
+.test-drive p {
+  padding: 10px 20px;
+}
+
+.topcar1 {
+  padding: 0 40px;
+  text-align: center;
+}
+.topcar1 h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(199, 8, 26);
+  font-weight: bolder;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.topcar1 p {
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.botton {
+  font-size: 15px;
+  background-color: rgb(199, 8, 26);
+  border-radius: 3px;
+  padding: 5px 7px 5px 7px;
+  color: aliceblue;
+}
+.test-drive {
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.topcar1 p {
+  font-weight: 600;
+  color: rgb(39, 39, 39);
+
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  line-height: 20px;
+}
+.header-body {
+  background-image: url(../image/slide-show4.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+
+  height: 350px;
+}
+.fff {
+  content: "";
+
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+}
+
+.textnav {
+  display: inline;
+  margin: 0px auto;
+  width: 100%;
+}
+.textnav li {
+  display: flex;
+  justify-content: end;
+}
+.headercon {
+  background: rgb(0, 0, 0, 0.4);
+}
+.auto {
+  padding-right: 130px;
+  margin-left: 400px;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+}
+
+.headercon li {
+  font-weight: 600;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+}
+.headercon li:hover {
+  background-color: rgb(216, 2, 2);
+}
+
+.plus1 {
+  font-size: 30px;
+}
+
+.inventory {
+  margin-top: 80px;
+  background-image: url("https://images.freeimages.com/images/previews/ac9/railway-hdr-1361893.jpg");
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+
+  padding: 0;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.p1 {
+  font-style: italic;
+}
+.header {
+  font-family: "Open Sans", sans-serif;
+}
+.inventory {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.9),
+      rgb(231 231 231 / 89%)
+    ),
+    url(..//image/parallax1.jpg);
+}
+.inv1 {
+  width: 300px;
+  text-align: center;
+  padding: 10px 0px;
+}
+.inv1 p {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 7px;
+}
+.inv1 h2 {
+  font-size: 30px;
+  padding: 7px;
+  font-weight: 600;
+}
+.inventory i {
+  padding: 10px 10px 10px 20px;
+  font-size: 70px;
+  color: rgb(55, 55, 55);
+}
+.kk {
+  font: 20px;
+  color: black;
+}
+.services {
+  display: flex;
+  justify-content: center;
+}
+.services i {
+  color: rgb(56, 55, 55);
+  font-size: 100px;
+}
+.ser1 {
+  padding: 80px 0px 0px 90px;
+}
+.ser1 h2 {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 40px;
+}
+.ser11 {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 15px 0px 0px 30px;
+}
+.ser11 h3 {
+  font-weight: 600;
+}
+.Service {
+  padding: 80px 0px 0px 80px;
+}
+.Service h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+.ourteam {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(..//image/parallax2.jpg);
+}
+.ourteam {
+  background-size: cover;
+
+  background-position: left 0% bottom 70%;
+
+  height: 200px;
+}
+.ourteam {
+  display: flex;
+  justify-content: center;
+  color: rgba(254, 254, 255);
+  margin-top: 40px;
+}
+.team1,
+.team2,
+.team3,
+.team4 {
+  padding: 50px 90px;
+}
+.team1 p,
+.team2 p,
+.team3 p,
+.team4 p {
+  text-align: center;
+  font-size: 13px;
+}
+.ourteam i {
+  font-size: 35px;
+}
+.team1 h2,
+.team2 h2,
+.team3 h2,
+.team4 h2 {
+  font-size: 38px;
+  text-align: center;
+}
+.team1 i {
+  padding: 0px 0px 10px 30px;
+}
+.team2 i {
+  padding: 0px 0px 10px 60px;
+}
+.team3 i {
+  padding: 0px 0px 10px 33px;
+}
+.team4 i {
+  padding: 0px 0px 10px 35px;
+}
+.letest i {
+  color: aliceblue;
+}
+.contact {
+}
+.portfolio {
+  height: 270px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(61, 61, 61);
+  color: rgb(255, 255, 255);
+}
+.newsleter {
+  padding: 0px 0px 0px 40px;
+  width: 300px;
+}
+.newsleter h2 {
+  padding-bottom: 17px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.newsleter p {
+  font-size: 14px;
+}
+.input {
+  border-radius: 4px;
+  padding: 6px;
+  margin-top: 25px;
+}
+.submit-btn {
+  background-color: rgb(47, 47, 47);
+  color: white;
+
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.portfolio {
+}
+.letest {
+  font-size: 15px;
+  padding: 0px 0px 0px 40px;
+  width: 400px;
+}
+.letest h2 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 35px;
+}
+.contact {
+  font-size: 15px;
+  padding: 0px 0px 40px 50px;
+  width: 400px;
+}
+.contact i {
+  padding: 0px 20px 0px 0px;
+}
+.contact li {
+  padding: 7px 0px 7px 0px;
+  display: inline-block;
+}
+.contact h2 {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0px 0px 10px 35px;
+}
+.letest li {
+  display: flex;
+  padding: 10px 0px 10px 0px;
+}
+.letest i {
+  padding: 0px 20px 0px 0px;
+}
+.footerfull {
+  display: flex;
+  justify-content: space-evenly;
+  height: 170px;
+  align-items: center;
+  background-color: rgb(47, 47, 47);
+  color: rgb(153, 153, 155);
+}
+.p1f {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+}
+.p2f {
+  padding: 0px 0px 70px 0px;
+  letter-spacing: 9px;
+  font-weight: 600;
+}
+.footersocial {
+  background-image: url(..//image\фекйсбук.png);
+  background-image: url(..//image\твитер.png);
+  background-image: url(..//image\ютуб1.png);
+  background-image: url(..//image\Слой1.png);
+  background-image: url(..//image\инста.png);
+  background-image: url(..//image\инет.png);
+  background-image: url(..//image\глаза.png);
+  background-image: url(..//image\скайп.png);
+  background-image: url(..//image\гугол.png);
+  background-image: url(..//image\пинтрест.png);
+  width: 30px;
+  height: 30px;
+
+}
